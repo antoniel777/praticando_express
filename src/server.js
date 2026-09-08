@@ -5,7 +5,7 @@ const port =3000
 
 app.use(express.json())
 
-app.get("/",(_req,res) =>{
+app.get("/frutas",async(_req,res) =>{
       res.json("seja bem vindo a minha api")
 })
 
